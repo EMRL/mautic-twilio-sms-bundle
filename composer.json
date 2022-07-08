@@ -1,0 +1,18 @@
+{
+    "name": "emrl/mautic-twilio-sms-bundle",
+    "description": "Adds functionality to the Twilio integration for Mautic.",
+    "type": "mautic-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corey Worrell",
+            "email": "cworrell@emrl.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "install-directory-name": "TwilioSmsBundle"
+    }
+}
