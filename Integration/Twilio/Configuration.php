@@ -9,7 +9,7 @@ class Configuration
 {
     private IntegrationHelper $integrationHelper;
 
-    private string $autoreplyMessage;
+    private ?string $autoreplyMessage = null;
 
     public function __construct(IntegrationHelper $integrationHelper)
     {
