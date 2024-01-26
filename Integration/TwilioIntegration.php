@@ -7,7 +7,12 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class TwilioIntegration extends BaseIntegration
 {
-	public function appendToForm(&$builder, array $data, string $formArea): void
+	/**
+	 * @param \Mautic\PluginBundle\Integration\Form|FormBuilder $builder
+	 * @param array $data
+	 * @param string $formArea
+	 */
+	public function appendToForm(&$builder, $data, $formArea): void
 	{
 		parent::appendToForm($builder, $data, $formArea);
 
